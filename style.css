@@ -1,0 +1,73 @@
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        /* Menu de navegação */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        /* Conteúdo principal */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+
+        .container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Experimente outras opções também! */
+    
+        }
+
+        .produto {
+            width: 30%;
+            margin-bottom: 2rem;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+        }
+        /* Carrossel de imagens */
+        .carousel-container {
+            margin: 10px auto;
+            width: 700px;
+            overflow: hidden;
+        }
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+        }   
+
+
+
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
